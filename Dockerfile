@@ -1,7 +1,7 @@
 FROM ubuntu:12.04
 SHELL ["/bin/bash", "-i", "-c"]
 
-ARG PYTHON_VERSION=3.7.10
+ARG PYTHON_VERSION=3.7.9
 
 ENV PYPI_URL=https://pypi.python.org/
 ENV PYPI_INDEX_URL=https://pypi.python.org/simple
